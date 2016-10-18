@@ -1,0 +1,71 @@
+/*
+  Name: David Bui
+  Email address: David_Bui@student.uml.edu
+  Affiliation: Student at UMass Lowell in course 91.61 GUI Programming I
+  Date file created: October 3, 2016
+  Short Description: This is the style.css code that decorates my web page
+                     further. The code reduces clutter from my index.html
+		     page and makes everything look prettier
+*/
+
+
+/* Establishes background color for page */
+body {
+    background-color: silver;
+}
+
+/* Centers first header and adds an outline */
+h1 {
+    color: maroon;
+    text-align: center;
+    outline-color: orange;
+    outline-style: inset;
+}
+
+/* Change second header color */
+h2 {
+    color: maroon;
+}
+
+/* Center picture of myself */
+img.self {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Make a purple border around my introduction and color background green */
+div.profile {
+    color: navy;
+    font-weight: bold;
+    margin-left: 14cm;
+    background-color: lightgreen;
+    width: 750px;
+    border: 10px solid purple;
+    padding: 20px;
+}
+
+/* Create bullet point looking listed shaded in */
+ul.assignments {
+    list-style-type: circle;
+    background: cyan;
+    margin: 5px;
+}
+
+ul li {
+    background: pink;
+    margin: 5px;
+}
+
+/* Color in and make an outline for website advertisement */
+p.advertisement {
+    color: navy;
+    font-weight: bold;
+    background: yellow;
+    outline-color: darkblue;
+    outline-style: dashed;
+}
+
+a {
+    text-decoration: none;
+}
